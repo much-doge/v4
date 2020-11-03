@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['English language teaching', 'Professional translations (ID to EN and vice versa)', 'Learning materials development', 'Teamwork management', 'Design, video editing, ...you name it (computer related stuffs). Currently not open to request, sorry I need to finish my research D:', 'A bit of web development'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +141,29 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Nur Eko Windianto, a teacher, translator, and language researcher form Yogyakarta, Indonesia.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy reading any kinds of interesting subjects that I found all over the internet, whether that be about  
+              lingusitics, the brain, biology, consciousness, nature and even geology. I write my interest in my little  <a href="https://aksara.najala.org/">Blog. </a> 
+            </p>  
+
+            <p>
+              I'm always fascinated by (arguably) the most impressive tools that we have: our mind, our hand, and yes – our mouth 
+              (No I mean language, all kinds of it including sign language system that we develop). 
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I am now still on my undergraduate study at{' '}
+              <a href="http://fbs.uny.ac.id">State University of Yogyakarta</a>, I am currently doing my undergraduate
+              research thesis about the evaluation of online learning implementation in a high school level. 
+              To be more specific, it is about implementation of English language teaching in online classroom.
+              
+              I am also doing research on second language acquisition especially on interlanguage
+              and it's influence in language learning.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are some of the work experiences that I've acquired over the years:</p>
           </div>
 
           <ul className="skills-list">
